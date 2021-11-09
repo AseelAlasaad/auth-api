@@ -1,0 +1,23 @@
+{
+    "development": {
+      "username": "aseel",
+      "password": "root",
+      "database": "food",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    },
+    "test": {
+      "username": "aseel",
+      "password": "password",
+      "database": "food",
+      "host": "127.0.0.1",
+      "dialect": "sqlite:memory:"
+    },
+    "production": {
+      "username": "aseel ",
+      "password": "password",
+      "database": "food",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    }
+  }
