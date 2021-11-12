@@ -1,4 +1,3 @@
-
 'use strict';
 
 const express = require('express');
@@ -57,4 +56,4 @@ async function handleGetAll(req, res) {
   }
   
 
-  module.exports = apiRouter;  
+  module.exports = apiRouter; 
