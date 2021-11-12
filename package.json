@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "init:config": "sequelize init:config",
     "db:create": "sequelize db:create",
     "watch": "nodemon index.js",
     "test-watch": "jest --watchAll",
-    "test": "jest"
+    "test": "NODE_ENV=test jest",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "start": "NODE_ENV=production node index.js"
   },
   "jest": {
     "testEnvironment": "node"
